@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		ED1F1E252F5C44410004833A /* Study1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1F1E252F5C44410004833A /* Calory counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calory counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		ED1F1E3B2F5C44420004833A /* Exceptions for "Study1" folder in "Study1" target */ = {
+		ED1F1E3B2F5C44420004833A /* Exceptions for "Calory counter" folder in "Calory counter" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = ED1F1E242F5C44410004833A /* Study1 */;
+			target = ED1F1E242F5C44410004833A /* Calory counter */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		ED1F1E272F5C44410004833A /* Study1 */ = {
+		ED1F1E272F5C44410004833A /* Calory counter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				ED1F1E3B2F5C44420004833A /* Exceptions for "Study1" folder in "Study1" target */,
+				ED1F1E3B2F5C44420004833A /* Exceptions for "Calory counter" folder in "Calory counter" target */,
 			);
-			path = Study1;
+			path = "Calory counter";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		ED1F1E1C2F5C44410004833A = {
 			isa = PBXGroup;
 			children = (
-				ED1F1E272F5C44410004833A /* Study1 */,
+				ED1F1E272F5C44410004833A /* Calory counter */,
 				ED1F1E262F5C44410004833A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		ED1F1E262F5C44410004833A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED1F1E252F5C44410004833A /* Study1.app */,
+				ED1F1E252F5C44410004833A /* Calory counter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED1F1E242F5C44410004833A /* Study1 */ = {
+		ED1F1E242F5C44410004833A /* Calory counter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED1F1E3C2F5C44420004833A /* Build configuration list for PBXNativeTarget "Study1" */;
+			buildConfigurationList = ED1F1E3C2F5C44420004833A /* Build configuration list for PBXNativeTarget "Calory counter" */;
 			buildPhases = (
 				ED1F1E212F5C44410004833A /* Sources */,
 				ED1F1E222F5C44410004833A /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				ED1F1E272F5C44410004833A /* Study1 */,
+				ED1F1E272F5C44410004833A /* Calory counter */,
 			);
-			name = Study1;
+			name = "Calory counter";
 			packageProductDependencies = (
 			);
 			productName = Study1;
-			productReference = ED1F1E252F5C44410004833A /* Study1.app */;
+			productReference = ED1F1E252F5C44410004833A /* Calory counter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED1F1E202F5C44410004833A /* Build configuration list for PBXProject "Study1" */;
+			buildConfigurationList = ED1F1E202F5C44410004833A /* Build configuration list for PBXProject "Calory counter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED1F1E242F5C44410004833A /* Study1 */,
+				ED1F1E242F5C44410004833A /* Calory counter */,
 			);
 		};
 /* End PBXProject section */
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED1F1E202F5C44410004833A /* Build configuration list for PBXProject "Study1" */ = {
+		ED1F1E202F5C44410004833A /* Build configuration list for PBXProject "Calory counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1F1E3F2F5C44420004833A /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED1F1E3C2F5C44420004833A /* Build configuration list for PBXNativeTarget "Study1" */ = {
+		ED1F1E3C2F5C44420004833A /* Build configuration list for PBXNativeTarget "Calory counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1F1E3D2F5C44420004833A /* Debug */,
