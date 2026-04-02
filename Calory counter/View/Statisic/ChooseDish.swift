@@ -30,13 +30,13 @@ class ChooseDish: UIViewController, UITableViewDataSource, UITableViewDelegate {
         view.backgroundColor = .lightGray
         
         // Настройка chooseDishesLabel
-        chooseDishesLabel.frame = CGRect(x: 40, y: 150, width: 200, height: 50)
+        chooseDishesLabel.frame = CGRect(x: 45, y: 150, width: 200, height: 50)
         chooseDishesLabel.text = "Меню"
         chooseDishesLabel.font = UIFont.systemFont(ofSize: 30, weight: .medium)
         chooseDishesLabel.textColor = .black
         
         // Настройка chooseDishesList
-        chooseDishesList.frame = CGRect(x: 40, y: 220, width: 300, height: 400)
+        chooseDishesList.frame = CGRect(x: 45, y: 220, width: 300, height: 400)
         chooseDishesList.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         chooseDishesList.rowHeight = 60
         chooseDishesList.backgroundColor = .white

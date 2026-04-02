@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         view.backgroundColor = .lightGray
         
         // Настройка foodHistoryTable
-        foodHistoryTable.frame = CGRect(x: 40, y: 200, width: 300, height: 430)
+        foodHistoryTable.frame = CGRect(x: 45, y: 200, width: 300, height: 430)
         foodHistoryTable.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         foodHistoryTable.rowHeight = 60
         foodHistoryTable.backgroundColor = .white
@@ -70,7 +70,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         dateLabel.textColor = .black
         
         // Настройка firstButton
-        firstButton.frame = CGRect(x: 40, y: 650, width: 300, height: 50)
+        firstButton.frame = CGRect(x: 45, y: 650, width: 300, height: 50)
         firstButton.setTitle("Съесть что нибудь", for: .normal)
         firstButton.setTitleColor(.black, for: .normal)
         firstButton.layer.backgroundColor = UIColor.white.cgColor

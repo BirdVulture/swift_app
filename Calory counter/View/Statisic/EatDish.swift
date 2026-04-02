@@ -72,7 +72,7 @@ class EatDish: UIViewController {
         quantityCounterDescription.textColor = .black
         
         // Настройка eatDishButton
-        eatDishButton.frame = CGRect(x: 40, y: 650, width: 300, height: 50)
+        eatDishButton.frame = CGRect(x: 45, y: 650, width: 300, height: 50)
         eatDishButton.setTitle("Съедено", for: .normal)
         eatDishButton.setTitleColor(.black, for: .normal)
         eatDishButton.layer.backgroundColor = UIColor.white.cgColor

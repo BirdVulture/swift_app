@@ -75,7 +75,7 @@ class AddDish: UIViewController, UITextFieldDelegate {
         caloryCounterDescription.textColor = .black
         
         // Настройка createDishButton
-        createDishButton.frame = CGRect(x: 40, y: 650, width: 300, height: 50)
+        createDishButton.frame = CGRect(x: 45, y: 650, width: 300, height: 50)
         createDishButton.setTitle("Сохранить", for: .normal)
         createDishButton.setTitleColor(.black, for: .normal)
         createDishButton.layer.backgroundColor = UIColor.white.cgColor

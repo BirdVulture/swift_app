@@ -37,13 +37,13 @@ class DishesListView: UIViewController, UITableViewDataSource, UITableViewDelega
         view.backgroundColor = .lightGray
         
         // Настройка dishesLabel
-        dishesLabel.frame = CGRect(x: 40, y: 70, width: 200, height: 50)
+        dishesLabel.frame = CGRect(x: 45, y: 70, width: 200, height: 50)
         dishesLabel.text = "Блюда"
         dishesLabel.font = UIFont.systemFont(ofSize: 30, weight: .medium)
         dishesLabel.textColor = .black
         
         // Настройка dishesList
-        dishesList.frame = CGRect(x: 40, y: 150, width: 300, height: 480)
+        dishesList.frame = CGRect(x: 45, y: 150, width: 300, height: 480)
         dishesList.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         dishesList.rowHeight = 60
         dishesList.backgroundColor = .white
@@ -53,7 +53,7 @@ class DishesListView: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
         // Настройка addDishButton
-        addDishButton.frame = CGRect(x: 40, y: 650, width: 300, height: 50)
+        addDishButton.frame = CGRect(x: 45, y: 650, width: 300, height: 50)
         addDishButton.setTitle("Добавить блюдо", for: .normal)
         addDishButton.setTitleColor(.black, for: .normal)
         addDishButton.layer.backgroundColor = UIColor.white.cgColor
